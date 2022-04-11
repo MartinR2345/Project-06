@@ -1,0 +1,34 @@
+/* This targets the h1 tag from my HTML file */
+h1 {
+    text-align: center;
+}
+
+/* This targets the div tag id name "btn1" from my HTML file */
+#btn1 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* This targets the div tag id name "btn2" from my HTML file */
+#btn2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* This targets the div tag id name "after_submit1" from my HTML file */
+/* I use the visibility property and set it to "hidden" because hidden elements take up space on the page */
+#after_submit1 {
+    visibility: hidden;
+}
+
+/* This targets the div tag id name "after_submit2" from my HTML file */
+/* I use the visibility property and set it to "hidden" because hidden elements take up space on the page */
+#after_submit2 {
+    visibility: hidden;
+}
+
+/* This targets the div tag id name "after_submit2" from my HTML file */
+/* I use the visibility property and set it to "hidden" because hidden elements take up space on the page */
+#after_submit3 {
+    visibility: hidden;
+}
