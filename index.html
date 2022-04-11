@@ -10,12 +10,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- I use an <h1> tag that says "Riddle Quiz" -->
+        <h1>Riddle Quiz</h1>
+    <!-- I used an HTML form -->
+    <form id="quiz" name="quiz">
+        <fieldset>
+            <!-- This is question 1 and it's choices to choose from -->
+            <h2>1. What has to be broken before you can use it?</h2>
+            <input type="radio" name="question1" id="correct1"/>An Egg
+            <input type="radio" name="question1" />A Clock
+            <input type="radio" name="question1" id="correct1"/>A Video Game
+            <input type="radio" name="question1" />A Dishwater
+            <!-- I use a div element with an id name of "after_submit1" and a <p> tag with an id name of "number_correct1". This will remain empty inside of these <p> tags -->
+            <div id="after_submit1">
+                <p id="number_correct1"></p>
+            </div>
+
+             <!-- This is question 2 and it's choices to choose from -->
+             <h2>2. What can you catch but never throw?</h2>
+             <input type="radio" name="question2" />A ball
+             <input type="radio" name="question2" />A Sweater
+             <input type="radio" name="question2" />A TV
+             <input type="radio" name="question2" id="correct2"/>A Cold
+             <!-- I use a div element with an id name of "after_submit2" and a <p> tag with an id name of "number_correct2". This will remain empty inside of these <p> tags -->
+             <div id="after_submit2">
+                 <p id="number_correct2"></p>
+             </div>
+
+              <!-- This is question 3 and it's choices to choose from -->
+              <h2>3. Through me you see through things.  What am I?</h2>
+              <input type="radio" name="question3" />A Glass Jar
+              <input type="radio" name="question3" id="correct3"/>An X-Ray Machine 
+              <input type="radio" name="question3" />Shades
+              <input type="radio" name="question3" id="correct2"/>Superman
+              <!-- I use a div element with an id name of "after_submit3" and a <p> tag with an id name of "number_correct3". This will remain empty inside of these <p> tags -->
+              <div id="after_submit3">
+                  <p id="number_correct3"></p>
+              </div>
+        </fieldset>
+        <!-- Create a div element with the id name of "btn1" and holds two buttons -->
+        <!-- One first button will use the onclick property that declares a function name "result()" and inside this button will have the text of "Submit". This button is to give the result after the user selects a choice from the choices -->
+        <!-- The second button will use the onclick property that declares a function name "reset()" which will reset the data and start all over again -->
+        <div id="btn1">
+            <button type="button" value="SubmitQuiz" onclick="result();">Submit</button>
+            <button type="button" value="Result" onClick="fun();"/></button>
+        </div>
+    </form>
 
 
 
 
-    
+
     <!-- link JavaScript file -->
     <script src="verb.js"></script>
 </body>
